@@ -142,5 +142,12 @@ print('Exercise 7:', calculate_tip(50, 20))
 #
 # Define the function and call it with different sets of numbers to test.
 
+def product(*args):
+    result = 1
+    for arg in args:
+        result = result * arg
+    return result
+
+print('Exercise 8:', product(2, 5, 5))
 
 # ----------------------------------------------------------------------------------------------------------------------------------
